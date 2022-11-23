@@ -1,0 +1,13 @@
+{
+  "language": "java",
+  "app": "sbt run",
+  "projectId": "9b36f8fd-335d-4b24-bd37-8f059e471a48",
+  "sendCrashReports": "true",
+  "codeMakerOutput": "src/main/java/imports",
+  "terraformProviders": [],
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
