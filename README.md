@@ -1,11 +1,29 @@
-========================================================================================================
 
-  Your cdktf Scala project is ready!
+# CDK for Terraform using Scala 3 & sbt
 
+## Resources
+
+Adapted from https://developer.hashicorp.com/terraform/tutorials/cdktf/cdktf-install
+
+## Prerequisites
+
+* The Terraform CLI (1.1+).
+* Node.js and npm v16+.
+* sbt
+* Docker
+  * If you are using macos, please see github.com/docker/for-mac/issues/6531
+
+
+## Useful commands
+
+```bash
   cat help                Prints this message
 
   Compile:
     sbt compile           Compiles your Scala packages
+
+  Compile:
+    sbt test              Run test suite
 
   Synthesize:
     cdktf synth [stack]   Synthesize Terraform resources to cdktf.out/
@@ -23,13 +41,9 @@
 
 Use Providers:
 
-  You can add prebuilt providers (if available) or locally generated ones using the add command:
-  
-  cdktf provider add "aws@~>3.0" null kreuzwerker/docker
-
   All prebuilt providers are available on Maven Central: https://mvnrepository.com/artifact/com.hashicorp
-  You can also add these providers directly to your pom.xml file.
+  You can also add these providers directly to your build.sbt file.
 
   You can also build any module or provider locally. Learn more: https://cdk.tf/modules-and-providers
+```
 
-========================================================================================================
