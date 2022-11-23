@@ -3,7 +3,7 @@
 
 ## Resources
 
-Adapted from https://developer.hashicorp.com/terraform/tutorials/cdktf/cdktf-install
+From https://developer.hashicorp.com/terraform/tutorials/cdktf/cdktf-install
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ Adapted from https://developer.hashicorp.com/terraform/tutorials/cdktf/cdktf-ins
 * Node.js and npm v16+.
 * sbt
 * Docker
-  * If you are using macos, please see github.com/docker/for-mac/issues/6531
+  * If you are using mac os, please check [here](github.com/docker/for-mac/issues/6531)
 
 
 ## Useful commands
